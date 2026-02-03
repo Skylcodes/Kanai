@@ -1,0 +1,53 @@
+.ctaSection {
+    padding: 120px 0;
+    background: var(--bg-primary);
+    text-align: center;
+}
+
+.box {
+    background: linear-gradient(135deg, rgba(124, 58, 237, 0.1), rgba(244, 114, 182, 0.1));
+    border: 1px solid rgba(124, 58, 237, 0.2);
+    border-radius: 40px;
+    padding: 5rem 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+    color: white;
+}
+
+.subtitle {
+    font-size: 1.125rem;
+    color: var(--text-secondary);
+    max-width: 600px;
+    margin: 0 auto 2.5rem;
+    line-height: 1.6;
+}
+
+.button {
+    background: var(--accent-purple);
+    color: white;
+    padding: 1.25rem 3rem;
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: 1.125rem;
+    box-shadow: 0 10px 30px rgba(124, 58, 237, 0.4);
+    transition: transform 0.2s, background 0.2s;
+}
+
+.button:hover {
+    transform: scale(1.05);
+    background: #6d28d9;
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 2rem;
+    }
+}
