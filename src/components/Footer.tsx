@@ -12,33 +12,6 @@ export default function Footer() {
                             Pioneering AI-driven tools for the next generation of sales and automation. We empower businesses to reach their full potential.
                         </p>
                     </div>
-
-                    <div className={styles.column}>
-                        <h4>Solutions</h4>
-                        <ul>
-                            <li><a href="#">Sales AI</a></li>
-                            <li><a href="#">Automation</a></li>
-                            <li><a href="#">Custom Dev</a></li>
-                        </ul>
-                    </div>
-
-                    <div className={styles.column}>
-                        <h4>Company</h4>
-                        <ul>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Join Team</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
-                    </div>
-
-                    <div className={styles.column}>
-                        <h4>Social</h4>
-                        <ul>
-                            <li><a href="#">Twitter</a></li>
-                            <li><a href="#">LinkedIn</a></li>
-                            <li><a href="#">GitHub</a></li>
-                        </ul>
-                    </div>
                 </div>
 
                 <div className={styles.bottom}>

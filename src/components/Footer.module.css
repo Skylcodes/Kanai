@@ -5,10 +5,17 @@
 }
 
 .grid {
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr;
-    gap: 4rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
     margin-bottom: 4rem;
+}
+
+.brand {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
 }
 
 .brand {
